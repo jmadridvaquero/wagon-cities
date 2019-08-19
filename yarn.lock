@@ -523,7 +523,9 @@ async@2.6.1:
   resolved "https://registry.yarnpkg.com/async/-/async-2.6.1.tgz#b245a23ca71930044ec53fa46aa00a3e87c6a610"
   integrity sha512-fNEiL2+AZt6AlAw/29Cr0UDe4sRAHCpEHh54WMz+Bb7QfNcFw4h3loofyJpLeQs4Yx7yuqu/2dLgM5hKOs6HlQ==
   dependencies:
-    lodash "^4.17.3"
+
+    lodash "^4.17.10"
+
 
 async@^1.5.2:
   version "1.5.2"
@@ -596,7 +598,9 @@ babel-core@^6.26.0:
     convert-source-map "^1.5.1"
     debug "^2.6.9"
     json5 "^0.5.1"
+
     lodash "^4.17.13"
+
     minimatch "^3.0.4"
     path-is-absolute "^1.0.1"
     private "^0.1.8"
@@ -625,7 +629,10 @@ babel-generator@^6.26.0:
     babel-types "^6.26.0"
     detect-indent "^4.0.0"
     jsesc "^1.3.0"
+
     lodash "^4.17.13"
+
+
     source-map "^0.5.7"
     trim-right "^1.0.1"
 
@@ -656,7 +663,9 @@ babel-helper-define-map@^6.24.1:
     babel-helper-function-name "^6.24.1"
     babel-runtime "^6.26.0"
     babel-types "^6.26.0"
+
     lodash "^4.17.13"
+
 
 babel-helper-function-name@^6.24.1:
   version "6.24.1"
@@ -700,7 +709,9 @@ babel-helper-regex@^6.24.1:
   dependencies:
     babel-runtime "^6.26.0"
     babel-types "^6.26.0"
+
     lodash "^4.17.13"
+
 
 babel-helper-replace-supers@^6.24.1:
   version "6.24.1"
@@ -793,7 +804,9 @@ babel-plugin-transform-es2015-block-scoping@^6.24.1:
     babel-template "^6.26.0"
     babel-traverse "^6.26.0"
     babel-types "^6.26.0"
+
     lodash "^4.17.13"
+
 
 babel-plugin-transform-es2015-classes@^6.24.1:
   version "6.24.1"
@@ -1073,7 +1086,9 @@ babel-register@^6.26.0:
     babel-runtime "^6.26.0"
     core-js "^2.5.0"
     home-or-tmp "^2.0.0"
+
     lodash "^4.17.13"
+
     mkdirp "^0.5.1"
     source-map-support "^0.4.15"
 
@@ -1096,6 +1111,8 @@ babel-template@^6.24.1, babel-template@^6.26.0:
     babylon "^6.18.0"
     lodash "^4.17.13"
 
+
+
 babel-traverse@^6.24.1, babel-traverse@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-traverse/-/babel-traverse-6.26.0.tgz#46a9cbd7edcc62c8e5c064e2d2d8d0f4035766ee"
@@ -1109,6 +1126,7 @@ babel-traverse@^6.24.1, babel-traverse@^6.26.0:
     debug "^2.6.8"
     globals "^9.18.0"
     invariant "^2.2.2"
+
     lodash "^4.17.13"
 
 babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^6.26.0:
@@ -1118,8 +1136,10 @@ babel-types@^6.19.0, babel-types@^6.24.1, babel-types@^6.26.0:
   dependencies:
     babel-runtime "^6.26.0"
     esutils "^2.0.2"
+
     lodash "^4.17.13"
-    to-fast-properties "^1.0.3"
+
+    lodash "^4.17.4"
 
 babylon@7.0.0-beta.44:
   version "7.0.0-beta.44"
@@ -2468,7 +2488,9 @@ eslint-plugin-import@^2.7.0:
     eslint-import-resolver-node "^0.3.2"
     eslint-module-utils "^2.3.0"
     has "^1.0.3"
+
     lodash "^4.17.13"
+
     minimatch "^3.0.4"
     read-pkg-up "^2.0.0"
     resolve "^1.9.0"
@@ -2558,10 +2580,14 @@ eslint@^4.6.1:
     imurmurhash "^0.1.4"
     inquirer "^3.0.6"
     is-resolvable "^1.0.0"
+
     js-yaml "^3.13.1"
     json-stable-stringify-without-jsonify "^1.0.1"
     levn "^0.3.0"
     lodash "^4.17.13"
+
+  
+
     minimatch "^3.0.2"
     mkdirp "^0.5.1"
     natural-compare "^1.4.0"
@@ -3082,8 +3108,10 @@ fsevents@^1.2.7:
     node-pre-gyp "^0.10.0"
 
 fstream@^1.0.0, fstream@^1.0.2:
+
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/fstream/-/fstream-1.0.12.tgz#5c1fb1f117477114f0632a0eb4b71b3cb0fd3171"
+
   integrity sha1-XB+x8RdHcRTwYyoOtLcbPLD9MXE=
   dependencies:
     graceful-fs "^4.1.2"
@@ -3441,6 +3469,7 @@ html-webpack-plugin@^3.2.0:
     html-minifier "^3.2.3"
     loader-utils "^0.2.16"
     lodash "^4.17.13"
+
     pretty-error "^2.0.2"
     tapable "^1.0.0"
     toposort "^1.0.0"
@@ -3483,7 +3512,9 @@ http-proxy-middleware@~0.18.0:
   dependencies:
     http-proxy "^1.16.2"
     is-glob "^4.0.0"
+
     lodash "^4.17.13"
+
     micromatch "^3.1.9"
 
 http-proxy@^1.16.2:
@@ -3971,8 +4002,13 @@ js-tokens@^3.0.0, js-tokens@^3.0.2:
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
 js-yaml@^3.9.1:
+<<<<<<< HEAD
   version "3.13.1"
   resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#295c8632a18a23e054cf5c9d3cecafe678167600"
+=======
+  version "3.12.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.1.tgz#295c8632a18a23e054cf5c9d3cecafe678167600"
+>>>>>>> ffa697f04357eef2db6ef138a14763f9b26f51b1
   integrity sha512-um46hB9wNOKlwkHgiuyEVAybXBjwFUV0Z/RaHJblRd9DXltue9FTYvzCr9ErQrK9Adz5MU4gHWVaNUfdmrC8qA==
   dependencies:
     argparse "^1.0.7"
@@ -4195,8 +4231,13 @@ locate-path@^3.0.0:
     path-exists "^3.0.0"
 
 lodash-es@^4.2.1:
+<<<<<<< HEAD
   version "4.17.13"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.13.tgz#145ab4a7ac5c5e52a3531fb4f310255a152b4be0"
+=======
+  version "4.17.11"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.11.tgz#145ab4a7ac5c5e52a3531fb4f310255a152b4be0"
+>>>>>>> ffa697f04357eef2db6ef138a14763f9b26f51b1
   integrity sha512-DHb1ub+rMjjrxqlB3H56/6MXtm1lSksDp2rA2cNWjG8mlDUYFhUj3Di2Zn5IwSU87xLv8tNIQ7sSwE/YOX/D/Q==
 
 lodash.assign@^4.2.0:
@@ -4222,6 +4263,7 @@ lodash.memoize@^4.1.2:
 lodash.mergewith@^4.6.0:
   version "4.6.2"
   resolved "https://registry.yarnpkg.com/lodash.mergewith/-/lodash.mergewith-4.6.2.tgz#639057e726c3afbdb3e7d42741caa8d6e4335927"
+
   integrity sha512-eWw5r+PYICtEBgrBE5hhlT6aAa75f411bgDz/ZL2KZqYV03USvucsxcHUIlGTDTECs1eunpI7HOV7U+WLDvNdQ==
 
 lodash.tail@^4.1.1:
@@ -4700,7 +4742,9 @@ node-sass@^4.5.3:
     in-publish "^2.0.0"
     lodash.assign "^4.2.0"
     lodash.clonedeep "^4.3.2"
+
     lodash.mergewith "^4.6.2"
+
     meow "^3.7.0"
     mkdirp "^0.5.1"
     nan "^2.10.0"
@@ -6718,7 +6762,11 @@ table@4.0.2:
     ajv "^5.2.3"
     ajv-keywords "^2.1.0"
     chalk "^2.1.0"
+<<<<<<< HEAD
     lodash "^4.17.13"
+=======
+    lodash "^4.17.4"
+>>>>>>> ffa697f04357eef2db6ef138a14763f9b26f51b1
     slice-ansi "1.0.0"
     string-width "^2.1.1"
 
